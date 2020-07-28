@@ -1,0 +1,13 @@
+{
+  "appId": "com.jeep.capacitor.app",
+  "appName": "test-video-player",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

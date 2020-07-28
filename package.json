@@ -1,0 +1,38 @@
+{
+  "name": "test-video-player",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@ionic/core": "^5.3.1",
+    "@stencil/core": "^1.17.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^2.4.0",
+    "@capacitor/cli": "^2.4.0",
+    "@capacitor/core": "^2.4.0",
+    "@capacitor/ios": "^2.4.0",
+    "capacitor-video-player": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jepiqueau/test-video-player.git"
+  },
+  "author": "Jean Pierre Quéau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jepiqueau/test-video-player/issues"
+  },
+  "homepage": "https://github.com/jepiqueau/test-video-player#readme"
+
+}
